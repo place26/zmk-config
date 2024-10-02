@@ -18,6 +18,19 @@
 #define HRML(k1,k2,k3,k4) &mt LGUI k1  &mt LALT k2  &mt LCTRL k3  &mt LSHFT k4
 #define HRMR(k1,k2,k3,k4) &mt RSHFT k1  &mt RCTRL k2  &mt RALT k3  &mt RGUI k4
 
+&mt {
+    quick-tap-ms = <100>;
+    global-quick-tap;
+    flavor = "tap-preferred";
+    tapping-term-ms = <170>;
+};
+
+&lt {
+    tapping-term-ms = <240>;
+    flavor = "balanced";
+    quick-tap-ms = <150>;
+};
+
 / {
     behaviors {
         hm: homerow_mods {
