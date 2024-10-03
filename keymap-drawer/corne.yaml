@@ -37,8 +37,8 @@ layers:
   - .
   - /
   - \
-  - {t: adjust, h: toggle}
-  - {t: ␣, h: LCTL}
+  - {t: ENTER, h: adjust}
+  - {t: Esc, h: LCTL}
   - {t: ↹, h: raise}
   - {t: ␣, h: lower}
   - {t: ␣, h: Alt}
@@ -53,7 +53,7 @@ layers:
   - Esc
   - '{'
   - '}'
-  - ''
+  - <
   - '"'
   - ''
   - ''
@@ -62,19 +62,19 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - '&input_switch'
+  - Ctl+ ␣
   - (
   - )
-  - ''
+  - '>'
   - ''''
   - ''
   - ','
   - .
-  - ''
+  - KP 0
   - KP 1
   - KP 2
   - KP 3
-  - '&input_switch_alt'
+  - Ctl+Sft+ ␣
   - '['
   - ']'
   - '`'
@@ -84,8 +84,8 @@ layers:
   - KP PLUS
   - KP 0
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - <
+  - '>'
   raise:
   - ''
   - '!'
@@ -98,7 +98,7 @@ layers:
   - End
   - Page Down
   - ''
-  - ⌫
+  - ''
   - ''
   - ^
   - AMPS
@@ -110,10 +110,10 @@ layers:
   - ↑
   - →
   - ↑
-  - '`'
   - ''
   - ''
-  - ''
+  - Gui+Sft+ 3
+  - Gui+Sft+ 4
   - ''
   - ''
   - Alt+ ␣
@@ -123,52 +123,103 @@ layers:
   - ←
   - ↓
   - →
+  - ENTER
+  - {t: Esc, h: LCTL}
+  - {t: ↹, h: raise, type: held}
+  - Ctl+ ␣
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - '&input_switch'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: numeric, h: toggle}
   adjust:
+  - Boot
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
   - F1
   - F2
   - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - ''
+  - Reset
+  - Boot
   - ''
   - BT 1
   - BT 2
   - BT 3
   - BT 4
   - BT 5
-  - ←
-  - ↓
-  - ↑
-  - →
-  - ↑
-  - '`'
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - ''
+  - ''
   - BT CLR
   - ''
   - ''
   - ''
   - ''
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ENTER, h: adjust, type: held}
   - ''
+  - ''
+  - Caps Word
+  - ''
+  - ''
+  numeric:
+  - ''
+  - ''
+  - /
+  - KP 7
+  - KP 8
+  - KP 9
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '='
+  - '*'
+  - KP 4
+  - KP 5
+  - KP 6
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ↑
+  - ''
+  - ','
+  - .
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
   - ''
   - ''
   - ''
   - ←
   - ↓
   - →
-  - {t: adjust, h: toggle}
+  - KP MINUS
+  - KP PLUS
+  - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - {t: numeric, h: toggle}
+combos:
+- p: [39, 20, 31]
+  k: '&home_key'
+  l: [base]
+- p: [13, 12, 11]
+  k: ENTER
+- p: [16, 18, 17]
+  k: ENTER
