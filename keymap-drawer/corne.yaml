@@ -130,18 +130,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: numeric, h: toggle}
   adjust:
+  - ''
   - Boot
   - Reset
   - ''
   - ''
-  - ''
-  - ''
+  - '&nonw'
   - F1
   - F2
   - F3
-  - ''
   - Reset
   - Boot
+  - ''
   - ''
   - BT 1
   - BT 2
