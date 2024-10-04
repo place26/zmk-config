@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   base:
-  - '`'
+  - ''
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - ⌫
-  - Shift
+  - ''
   - {t: A, h: Gui}
   - {t: S, h: Alt}
   - {t: D, h: Ctrl}
@@ -24,7 +24,7 @@ layers:
   - {t: K, h: Ctrl}
   - {t: L, h: Alt}
   - {t: ;, h: Gui}
-  - ''''
+  - ''
   - Shift
   - Z
   - X
@@ -216,10 +216,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: numeric, h: toggle}
 combos:
-- p: [39, 20, 31]
+- p: [24, 35]
   k: '&home_key'
   l: [base]
-- p: [13, 12, 11]
+- p: [14, 15, 16]
   k: ENTER
-- p: [16, 18, 17]
+- p: [19, 20, 21]
   k: ENTER
