@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - ⌫
+  - ''
   - ''
   - {t: A, h: Gui}
   - {t: S, h: Alt}
@@ -68,18 +68,18 @@ layers:
   - '>'
   - ''''
   - ''
+  - LEFT SHIFT
   - ','
   - .
-  - KP 0
   - KP 1
   - KP 2
   - KP 3
-  - Ctl+Sft+ ␣
+  - Sft+Alt+ ␣
   - '['
   - ']'
   - '`'
   - '~'
-  - ''
+  - BACKSPACE
   - KP MINUS
   - KP PLUS
   - KP 0
@@ -111,7 +111,7 @@ layers:
   - →
   - ↑
   - ''
-  - ''
+  - {t: numeric, h: toggle}
   - Gui+Sft+ 3
   - Gui+Sft+ 4
   - ''
@@ -127,8 +127,8 @@ layers:
   - {t: Esc, h: LCTL}
   - {t: ↹, h: raise, type: held}
   - Ctl+ ␣
+  - Ctl+Alt+ ␣
   - {t: ▽, type: trans}
-  - {t: numeric, h: toggle}
   adjust:
   - ''
   - Boot
@@ -197,9 +197,9 @@ layers:
   - →
   - ↑
   - ''
+  - {t: numeric, h: toggle}
   - ','
   - .
-  - KP 0
   - KP 1
   - KP 2
   - KP 3
@@ -220,6 +220,8 @@ combos:
   k: '&home_key'
   l: [base]
 - p: [14, 15, 16]
-  k: ENTER
+  k: ESCAPE
 - p: [19, 20, 21]
   k: ENTER
+- p: [7, 8, 9]
+  k: BACKSPACE
