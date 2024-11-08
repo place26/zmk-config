@@ -156,10 +156,10 @@ layers:
   - ''
   - ''
   - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&stylist_email'
+  - '&xupei_email'
+  - '&xtdigs_email'
+  - '&puma_email'
   - F7
   - F8
   - F9
