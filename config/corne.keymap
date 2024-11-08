@@ -28,13 +28,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_home {
-            timeout-ms = <50>;
-            key-positions = <24 35>; // 양쪽 가장자리 키
-            bindings = <&home_key>;
-            layers = <0>; // 모든 레이어에서 작동
-        };
-
         esc_combo {
             bindings = <&kp ESCAPE>;
             key-positions = <14 15 16>;

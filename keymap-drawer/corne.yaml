@@ -216,9 +216,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: numeric, h: toggle}
 combos:
-- p: [24, 35]
-  k: '&home_key'
-  l: [base]
 - p: [14, 15, 16]
   k: ESCAPE
 - p: [19, 20, 21]
