@@ -74,7 +74,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - Sft+Alt+ ␣
+  - Alt+Ctl+ ␣
   - '['
   - ']'
   - '`'

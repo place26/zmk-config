@@ -105,7 +105,7 @@
             bindings = <
 &none           &none      &kp SLASH  &kp KP_N7     &kp KP_N8    &kp KP_N9    &kp ESC            &kp LBRC  &kp RBRC  &kp LT     &kp DQT    &none
 &none           &kp EQUAL  &kp ASTRK  &kp KP_N4     &kp KP_N5    &kp KP_N6    &kp LC(SPACE)      &kp LPAR  &kp RPAR  &kp GT     &kp SQT    &none
-&kp LEFT_SHIFT  &kp COMMA  &kp DOT    &kp KP_N1     &kp KP_N2    &kp KP_N3    &kp LS(LA(SPACE))  &kp LBKT  &kp RBKT  &kp GRAVE  &kp TILDE  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp COMMA  &kp DOT    &kp KP_N1     &kp KP_N2    &kp KP_N3    &kp LA(LC(SPACE))  &kp LBKT  &kp RBKT  &kp GRAVE  &kp TILDE  &kp BACKSPACE
                                       &kp KP_MINUS  &kp KP_PLUS  &kp KP_N0    &trans             &kp LT    &kp GT
             >;
         };
