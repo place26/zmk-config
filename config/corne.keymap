@@ -42,9 +42,24 @@
             require-prior-idle-ms = <100>;
         };
 
-        backspace_combo {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <7 8 9>;
+        layer4_combo {
+            bindings = <&tog 4>;
+            key-positions = <31 32 33>;
+        };
+
+        stylist_gmail {
+            bindings = <&stylist_email>;
+            key-positions = <24 35>;
+        };
+
+        puma_email {
+            bindings = <&puma_email>;
+            key-positions = <24 34>;
+        };
+
+        xtdigs_email {
+            bindings = <&xtdigs_email>;
+            key-positions = <24 33>;
         };
     };
 

@@ -220,5 +220,11 @@ combos:
   k: ESCAPE
 - p: [19, 20, 21]
   k: ENTER
-- p: [7, 8, 9]
-  k: BACKSPACE
+- p: [31, 32, 33]
+  k: {t: numeric, h: toggle}
+- p: [24, 35]
+  k: '&stylist_email'
+- p: [24, 34]
+  k: '&puma_email'
+- p: [24, 33]
+  k: '&xtdigs_email'

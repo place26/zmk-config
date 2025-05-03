@@ -415,10 +415,30 @@ rect.held, rect.combo.held {
 <text x="644" y="89" class="combo tap">ENTER</text>
 </g>
 <g class="combo combopos-2">
-<path d="M644,33 l-37,2" class="combo"/>
-<path d="M644,33 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="630" y="20" width="28" height="26" class="combo"/>
-<text x="644" y="33" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<a href="#numeric">
+<text x="644" y="145" class="combo tap layer-activator"><tspan style="font-size: 86%">numeric</tspan></text>
+</a><text x="644" y="156" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M420,161 l-373,0" class="combo"/>
+<path d="M420,161 l373,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
+<text x="420" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;stylist_…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M392,161 l-345,0" class="combo"/>
+<path d="M392,161 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="148" width="28" height="26" class="combo"/>
+<text x="392" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;puma_ema…</tspan></text>
+</g>
+<g class="combo combopos-5">
+<path d="M364,154 l-317,7" class="combo"/>
+<path d="M364,154 l317,-7" class="combo"/>
+<rect rx="6" ry="6" x="350" y="141" width="28" height="26" class="combo"/>
+<text x="364" y="154" class="combo tap"><tspan style="font-size: 60%">&amp;xtdigs_e…</tspan></text>
 </g>
 </g>
 </g>
@@ -621,10 +641,30 @@ rect.held, rect.combo.held {
 <text x="644" y="89" class="combo tap">ENTER</text>
 </g>
 <g class="combo combopos-2">
-<path d="M644,33 l-37,2" class="combo"/>
-<path d="M644,33 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="630" y="20" width="28" height="26" class="combo"/>
-<text x="644" y="33" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<a href="#numeric">
+<text x="644" y="145" class="combo tap layer-activator"><tspan style="font-size: 86%">numeric</tspan></text>
+</a><text x="644" y="156" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M420,161 l-373,0" class="combo"/>
+<path d="M420,161 l373,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
+<text x="420" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;stylist_…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M392,161 l-345,0" class="combo"/>
+<path d="M392,161 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="148" width="28" height="26" class="combo"/>
+<text x="392" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;puma_ema…</tspan></text>
+</g>
+<g class="combo combopos-5">
+<path d="M364,154 l-317,7" class="combo"/>
+<path d="M364,154 l317,-7" class="combo"/>
+<rect rx="6" ry="6" x="350" y="141" width="28" height="26" class="combo"/>
+<text x="364" y="154" class="combo tap"><tspan style="font-size: 60%">&amp;xtdigs_e…</tspan></text>
 </g>
 </g>
 </g>
@@ -812,10 +852,30 @@ rect.held, rect.combo.held {
 <text x="644" y="89" class="combo tap">ENTER</text>
 </g>
 <g class="combo combopos-2">
-<path d="M644,33 l-37,2" class="combo"/>
-<path d="M644,33 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="630" y="20" width="28" height="26" class="combo"/>
-<text x="644" y="33" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<a href="#numeric">
+<text x="644" y="145" class="combo tap layer-activator"><tspan style="font-size: 86%">numeric</tspan></text>
+</a><text x="644" y="156" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M420,161 l-373,0" class="combo"/>
+<path d="M420,161 l373,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
+<text x="420" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;stylist_…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M392,161 l-345,0" class="combo"/>
+<path d="M392,161 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="148" width="28" height="26" class="combo"/>
+<text x="392" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;puma_ema…</tspan></text>
+</g>
+<g class="combo combopos-5">
+<path d="M364,154 l-317,7" class="combo"/>
+<path d="M364,154 l317,-7" class="combo"/>
+<rect rx="6" ry="6" x="350" y="141" width="28" height="26" class="combo"/>
+<text x="364" y="154" class="combo tap"><tspan style="font-size: 60%">&amp;xtdigs_e…</tspan></text>
 </g>
 </g>
 </g>
@@ -1005,10 +1065,30 @@ rect.held, rect.combo.held {
 <text x="644" y="89" class="combo tap">ENTER</text>
 </g>
 <g class="combo combopos-2">
-<path d="M644,33 l-37,2" class="combo"/>
-<path d="M644,33 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="630" y="20" width="28" height="26" class="combo"/>
-<text x="644" y="33" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<a href="#numeric">
+<text x="644" y="145" class="combo tap layer-activator"><tspan style="font-size: 86%">numeric</tspan></text>
+</a><text x="644" y="156" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M420,161 l-373,0" class="combo"/>
+<path d="M420,161 l373,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
+<text x="420" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;stylist_…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M392,161 l-345,0" class="combo"/>
+<path d="M392,161 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="148" width="28" height="26" class="combo"/>
+<text x="392" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;puma_ema…</tspan></text>
+</g>
+<g class="combo combopos-5">
+<path d="M364,154 l-317,7" class="combo"/>
+<path d="M364,154 l317,-7" class="combo"/>
+<rect rx="6" ry="6" x="350" y="141" width="28" height="26" class="combo"/>
+<text x="364" y="154" class="combo tap"><tspan style="font-size: 60%">&amp;xtdigs_e…</tspan></text>
 </g>
 </g>
 </g>
@@ -1206,10 +1286,30 @@ rect.held, rect.combo.held {
 <text x="644" y="89" class="combo tap">ENTER</text>
 </g>
 <g class="combo combopos-2">
-<path d="M644,33 l-37,2" class="combo"/>
-<path d="M644,33 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="630" y="20" width="28" height="26" class="combo"/>
-<text x="644" y="33" class="combo tap"><tspan style="font-size: 67%">BACKSPACE</tspan></text>
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<a href="#numeric">
+<text x="644" y="145" class="combo tap layer-activator"><tspan style="font-size: 86%">numeric</tspan></text>
+</a><text x="644" y="156" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M420,161 l-373,0" class="combo"/>
+<path d="M420,161 l373,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
+<text x="420" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;stylist_…</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M392,161 l-345,0" class="combo"/>
+<path d="M392,161 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="148" width="28" height="26" class="combo"/>
+<text x="392" y="161" class="combo tap"><tspan style="font-size: 60%">&amp;puma_ema…</tspan></text>
+</g>
+<g class="combo combopos-5">
+<path d="M364,154 l-317,7" class="combo"/>
+<path d="M364,154 l317,-7" class="combo"/>
+<rect rx="6" ry="6" x="350" y="141" width="28" height="26" class="combo"/>
+<text x="364" y="154" class="combo tap"><tspan style="font-size: 60%">&amp;xtdigs_e…</tspan></text>
 </g>
 </g>
 </g>
