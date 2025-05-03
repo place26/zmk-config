@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   base:
   - ''
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: Alt}
   - {t: ;, h: Gui}
   - ''
-  - Shift
+  - Caps Word
   - Z
   - X
   - C
@@ -38,11 +38,11 @@ layers:
   - /
   - \
   - {t: ENTER, h: adjust}
-  - {t: Esc, h: LCTL}
+  - Caps Lock
   - {t: ↹, h: raise}
   - {t: ␣, h: lower}
-  - {t: ␣, h: Alt}
-  - {t: ENTER, h: Gui}
+  - ␣
+  - {t: numeric, h: toggle}
   lower:
   - ''
   - ''
@@ -53,7 +53,7 @@ layers:
   - Esc
   - '{'
   - '}'
-  - <
+  - ''
   - '"'
   - ''
   - ''
@@ -62,19 +62,19 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - Ctl+ ␣
+  - Ctl+␣
   - (
   - )
-  - '>'
+  - ''
   - ''''
   - ''
-  - LEFT SHIFT
   - ','
   - .
+  - ''
   - KP 1
   - KP 2
   - KP 3
-  - Alt+Ctl+ ␣
+  - Alt+Ctl+␣
   - '['
   - ']'
   - '`'
@@ -84,8 +84,8 @@ layers:
   - KP PLUS
   - KP 0
   - {type: held}
-  - <
-  - '>'
+  - ''
+  - ''
   raise:
   - ''
   - '!'
@@ -111,24 +111,24 @@ layers:
   - →
   - ↑
   - ''
-  - {t: numeric, h: toggle}
-  - Gui+Sft+ 3
-  - Gui+Sft+ 4
+  - ''
+  - Gui+Sft+3
+  - Gui+Sft+4
   - ''
   - ''
-  - Alt+ ␣
+  - Alt+␣
   - ⌦
   - ⌫
   - ''
   - ←
   - ↓
   - →
-  - ENTER
-  - {t: Esc, h: LCTL}
+  - ''
+  - ''
   - {t: ↹, h: raise, type: held}
-  - Ctl+ ␣
-  - Ctl+Alt+ ␣
-  - {t: ▽, type: trans}
+  - Ctl+␣
+  - Ctl+Alt+␣
+  - ''
   adjust:
   - ''
   - Boot
@@ -163,15 +163,15 @@ layers:
   - F7
   - F8
   - F9
+  - ''
+  - ''
+  - ''
+  - {t: ENTER, h: adjust, type: held}
+  - ''
+  - Caps Word
   - F10
   - F11
   - F12
-  - {t: ENTER, h: adjust, type: held}
-  - ''
-  - ''
-  - Caps Word
-  - ''
-  - ''
   numeric:
   - ''
   - ''
@@ -197,9 +197,9 @@ layers:
   - →
   - ↑
   - ''
-  - {t: numeric, h: toggle}
   - ','
   - .
+  - ''
   - KP 1
   - KP 2
   - KP 3
@@ -212,8 +212,8 @@ layers:
   - KP MINUS
   - KP PLUS
   - KP 0
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: numeric, h: toggle}
 combos:
 - p: [14, 15, 16]
