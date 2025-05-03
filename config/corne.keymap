@@ -42,24 +42,14 @@
             require-prior-idle-ms = <100>;
         };
 
-        layer4_combo {
+        layer4_tog {
             bindings = <&tog 4>;
-            key-positions = <31 32 33>;
-        };
-
-        stylist_gmail {
-            bindings = <&stylist_email>;
-            key-positions = <24 35>;
-        };
-
-        puma_email {
-            bindings = <&puma_email>;
             key-positions = <24 34>;
         };
 
-        xtdigs_email {
-            bindings = <&xtdigs_email>;
-            key-positions = <24 33>;
+        layer5_tog {
+            bindings = <&tog 5>;
+            key-positions = <24 35>;
         };
     };
 
@@ -112,7 +102,7 @@
 &none       &kp Q       &kp W       &kp E             &kp R        &kp T            &kp Y            &kp U        &kp I        &kp O       &kp P          &none
 &none       &mt LGUI A  &mt LALT S  &mt LCTRL D       &mt LSHFT F  &kp G            &kp H            &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SEMI  &none
 &caps_word  &kp Z       &kp X       &kp C             &kp V        &kp B            &kp N            &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                                    &lt ADJUST ENTER  &kp CAPS     &lt RAISE TAB    &lt LOWER SPACE  &kp SPACE    &tog 4
+                                    &lt ADJUST ENTER  &kp CAPS     &lt RAISE TAB    &lt LOWER SPACE  &kp SPACE    &kp ENTER
             >;
         };
 
@@ -149,6 +139,15 @@
 &none      &kp EQUAL  &kp ASTRK  &kp KP_N4     &kp KP_N5    &kp KP_N6    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp UP    &none
 &kp COMMA  &kp DOT    &none      &kp KP_N1     &kp KP_N2    &kp KP_N3    &none     &none     &none   &kp LEFT   &kp DOWN  &kp RIGHT
                                  &kp KP_MINUS  &kp KP_PLUS  &kp KP_N0    &none     &none     &tog 4
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT  &trans  &trans
+                        &trans  &trans  &trans    &kp KP_NUMBER_0  &trans           &tog 5
             >;
         };
     };

@@ -42,7 +42,7 @@ layers:
   - {t: ↹, h: raise}
   - {t: ␣, h: lower}
   - ␣
-  - {t: numeric, h: toggle}
+  - ENTER
   lower:
   - ''
   - ''
@@ -215,16 +215,55 @@ layers:
   - ''
   - ''
   - {t: numeric, h: toggle}
+  '5':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 0
+  - {t: ▽, type: trans}
+  - {t: '5', h: toggle}
 combos:
 - p: [14, 15, 16]
   k: ESCAPE
 - p: [19, 20, 21]
   k: ENTER
-- p: [31, 32, 33]
+- p: [24, 34]
   k: {t: numeric, h: toggle}
 - p: [24, 35]
-  k: '&stylist_email'
-- p: [24, 34]
-  k: '&puma_email'
-- p: [24, 33]
-  k: '&xtdigs_email'
+  k: {t: '5', h: toggle}
