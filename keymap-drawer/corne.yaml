@@ -168,102 +168,102 @@ layers:
   - ''
   - {t: ENTER, h: adjust, type: held}
   - ''
-  - Caps Word
+  - ''
   - F10
   - F11
   - F12
+  navigation:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Mouse ↑
+  - Mouse ←
+  - Mouse ↑
+  - Mouse ↓
+  - Mouse →
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ↑
+  - ''
+  - Mouse ←
+  - Mouse ↓
+  - Mouse →
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ←
+  - ↓
+  - →
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: navigation, h: toggle}
   numeric:
   - ''
   - ''
   - /
+  - ''
+  - ''
+  - ''
   - KP 7
   - KP 8
   - KP 9
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - /
+  - BACKSPACE
   - ''
   - ''
   - '='
   - '*'
+  - ''
+  - ''
+  - ''
   - KP 4
   - KP 5
   - KP 6
-  - ←
-  - ↓
-  - ↑
-  - →
-  - ↑
+  - '*'
+  - '='
   - ''
   - ','
   - .
   - ''
+  - ''
+  - ''
+  - ''
   - KP 1
   - KP 2
   - KP 3
+  - ENTER
+  - .
+  - ','
+  - '-'
+  - +
   - ''
-  - ''
-  - ''
-  - ←
-  - ↓
-  - →
-  - KP MINUS
-  - KP PLUS
   - KP 0
-  - ''
   - ''
   - {t: numeric, h: toggle}
-  '5':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP 7
-  - KP 8
-  - KP 9
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP 4
-  - KP 5
-  - KP 6
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP 1
-  - KP 2
-  - KP 3
-  - .
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP 0
-  - {t: ▽, type: trans}
-  - {t: '5', h: toggle}
 combos:
 - p: [14, 15, 16]
   k: ESCAPE
 - p: [19, 20, 21]
   k: ENTER
 - p: [24, 34]
-  k: {t: numeric, h: toggle}
+  k: {t: navigation, h: toggle}
 - p: [24, 35]
-  k: {t: '5', h: toggle}
+  k: {t: numeric, h: toggle}
