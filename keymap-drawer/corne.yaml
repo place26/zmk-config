@@ -157,9 +157,9 @@ layers:
   - ''
   - BT CLR
   - '&stylist_email'
-  - '&xupei_email'
-  - '&xtdigs_email'
   - '&puma_email'
+  - '&xtdigs_email'
+  - '&xupei_email'
   - F7
   - F8
   - F9
@@ -259,11 +259,9 @@ layers:
   - ''
   - {t: numeric, h: toggle}
 combos:
-- p: [14, 15, 16]
-  k: ESCAPE
 - p: [19, 20, 21]
   k: ENTER
-- p: [24, 34]
+- p: [6, 8]
   k: {t: navigation, h: toggle}
-- p: [24, 35]
+- p: [7, 9]
   k: {t: numeric, h: toggle}
