@@ -261,7 +261,7 @@ layers:
 combos:
 - p: [19, 20, 21]
   k: ENTER
-- p: [6, 8]
+- p: [8, 7, 9]
   k: {t: navigation, h: toggle}
-- p: [7, 9]
+- p: [31, 32, 33]
   k: {t: numeric, h: toggle}
