@@ -25,7 +25,7 @@ layers:
   - {t: L, h: Alt}
   - {t: ;, h: Gui}
   - ''
-  - Caps Word
+  - _
   - Z
   - X
   - C
@@ -167,7 +167,7 @@ layers:
   - ''
   - ''
   - {t: ENTER, h: adjust, type: held}
-  - ''
+  - Caps Word
   - ''
   - F10
   - F11
